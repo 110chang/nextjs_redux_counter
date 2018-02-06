@@ -20,9 +20,9 @@ class Counter extends Component {
     const { counter } = this.props
     return (
       <div>
-        <h2>{counter}</h2>
-        <button onClick={this.handleIncrement}>+</button>
-        <button onClick={this.handleDecrement}>-</button>
+        <h2 className="display-1">{counter}</h2>
+        <button className="btn btn-secondary" onClick={this.handleIncrement}>+</button>
+        <button className="btn btn-secondary" onClick={this.handleDecrement}>-</button>
       </div>
     )
   }

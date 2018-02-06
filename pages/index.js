@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import reducer from '../reducers'
 import { initStore } from '../store'
+import Layout from '../layouts/layout'
 import Counter from '../components/Counter'
 
 export default class Index extends Component {
@@ -26,7 +27,9 @@ export default class Index extends Component {
   render() {
     return (
       <Provider store={this.store}>
-        <Counter />
+        <Layout>
+          <Counter />
+        </Layout>
       </Provider>
     )
   }
