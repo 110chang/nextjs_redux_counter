@@ -1,0 +1,13 @@
+{
+  "files": [
+    ".next",
+    "actions",
+    "components",
+    "layouts",
+    "pages",
+    "reducers",
+    "package-lock.json",
+    "package.json",
+    "store.js"
+  ]
+}
